@@ -6,14 +6,14 @@ import logo1 from "../images/logo-wt.png";
 
 const pageTitle = "WISE: Login"; 
 
-export class Login extends Component {
+export default class Main extends Component {
     render(){
         return(
             <section className="wrapper-content">
                 <Helmet><title>{pageTitle}</title></Helmet>
                 <nav className="header">
                     <ul>
-                        <li><Link to="/login"><img className="logo" alt="WISE Logo" src={logo1}></img></Link></li>
+                        <li><Link to="/"><img className="logo" alt="WISE Logo" src={logo1}></img></Link></li>
                     </ul>
                 </nav>
                 <section className="wrapper-login">
@@ -31,6 +31,3 @@ export class Login extends Component {
         )
     }
 }
-
-
-export default Login
