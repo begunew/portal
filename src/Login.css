@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    flex-flow: column;
+    margin: 20% 40% 0 40%;
+    width: 200px;
+}
+
+.login>input {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+}
